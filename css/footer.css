@@ -1,0 +1,20 @@
+.footer-home {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+p{
+    margin: 0;
+    
+}
+
+.footer-home a{
+    text-decoration: none;
+}
+

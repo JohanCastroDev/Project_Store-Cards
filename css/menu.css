@@ -1,0 +1,90 @@
+/* #menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#menu li a{
+    display: block;
+    padding: 5px;
+    margin-bottom: 7px;
+}
+
+#menu li a.active{
+    color: var(--color-primary-dark);
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+    #menu{
+        text-align: left;
+        margin-left: 20px;
+    }
+} */
+
+.titles{
+    text-align: center;
+    font-size: 16px;
+    background-color: skyblue;
+    width: 100%;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+#main-section{
+    margin: 70px 0 0 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1430px) {
+    #main-section{
+        margin: 115px 0 0 0;
+    }
+}
+
+.input-menu{
+    width: 100%;
+}
+
+#registo-button{
+    margin-top: 10px;
+}
+
+#main-title{
+    background-color: rgb(4, 169, 234);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section-menu{
+    margin: 40px 0 20px 0;
+}
+
+textarea{
+    margin-bottom: 10px;
+}
+
+button{
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 1px 1px 4px black;
+}
+
+button:hover{
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    box-shadow: 3px 3px 8px black; 
+}
+
+#quote{
+    text-align: center;
+}
+
+#email{
+    text-align: center;
+    font-weight: bold; 
+
+}

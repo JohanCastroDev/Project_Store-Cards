@@ -1,0 +1,7 @@
+:root{
+    --color-primary: red;
+    --color-primary-dark: rgb(128, 0, 0);
+    --color-details: skyblue;
+    --color-gray: gray;
+    --color-black: black;
+}
