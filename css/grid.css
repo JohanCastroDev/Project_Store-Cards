@@ -79,7 +79,7 @@
     .col-l-12{width: 100%;}
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1500px){
     .col-xl-1{width: 8.33%;}
     .col-xl-2{width: 16.66%;}
     .col-xl-3{width: 25%;}

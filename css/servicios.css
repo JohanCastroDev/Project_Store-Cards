@@ -25,17 +25,17 @@
     cursor: pointer;
 }
 
-.product-box{
+.product-services{
     text-align: center;
     color: var(--color-black);
     text-decoration: none;
 }
 
-.product-box:hover{
+.product-services:hover{
     text-decoration: none;
 }
 
-.product-box img{
+.product-services img{
     transition: all 0.3s;
     height: 180px;
     width: 200px;
@@ -43,11 +43,11 @@
     box-shadow: 4px 4px 9px var(--color-details);
 }
 
-.product-box:hover img{
+.product-services:hover img{
     transform: scale(1.05);/* Zoom en la imagen al colocar puntero encima */
 }
 
-.product-box h3{
+.product-services h3{
     font-size: 14px;
     font-weight: normal;
     margin: 5px;
