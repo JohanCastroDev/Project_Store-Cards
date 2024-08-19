@@ -124,8 +124,8 @@
     .col-xl-12{width: 100%;}
 
     .programs{
-        grid-template-columns: 250px 250px 250px 250px 250px 250px 250px;
-        grid-template-rows: 250px 250px 250px 250px; 
+        grid-template-columns: 250px 250px 250px 250px 250px 250px;
+        grid-template-rows: 250px 250px 250px 250px 250px 250px; 
         grid-gap: 50px 65px;
         padding: 15px;
     }
