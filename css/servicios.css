@@ -43,6 +43,16 @@
     box-shadow: 4px 4px 9px var(--color-details);
 }
 
+@media only screen and (min-width: 992px){
+    .product-services img{
+        transition: all 0.3s;
+        height: 180px;
+        width: 200px;
+        border: solid 4px var(--color-black);
+        box-shadow: 4px 4px 9px var(--color-details);
+    }
+}
+
 .product-services:hover img{
     transform: scale(1.05);/* Zoom en la imagen al colocar puntero encima */
 }

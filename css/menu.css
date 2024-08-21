@@ -1,28 +1,75 @@
-/* #menu{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-top: 20px;
-    text-align: center;
+#div_logo{
+    /* background-color: red; */
+    display: grid;
+    width: 18rem;
+    height: 19rem;
+    align-items: center;
+    justify-items: center;
 }
 
-#menu li a{
-    display: block;
-    padding: 5px;
-    margin-bottom: 7px;
-}
-
-#menu li a.active{
-    color: var(--color-primary-dark);
-    text-decoration: underline;
-}
-
-@media only screen and (min-width: 768px) {
-    #menu{
-        text-align: left;
-        margin-left: 20px;
+@media only screen and (max-width: 600px){
+    #div_logo{
+        /* background-color: red; */
+        display: grid;
+        width: 23rem;
+        height: 19rem;
+        align-items: center;
+        justify-items: center;
     }
-} */
+}
+
+@media only screen and (min-width: 700px) {
+    #div_logo{
+        /* background-color: red; */
+        display: grid;
+        width: 2rem;
+        height: 19rem;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+#logo{
+    border-radius: 35px;
+}
+
+.tab-container {
+    max-width: 600px;
+    box-shadow: 1px 1px 6px #007bff;
+    /* background-color: blue; */
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #f1f1f1;
+    margin-right: 2px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.tab-button.active {
+    background-color: #fff;
+    border-bottom: 2px solid #007bff;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+/* ------------------------------------------------ */
 
 .titles{
     text-align: center;
@@ -31,24 +78,19 @@
     width: 100%;
     padding: 5px;
     text-transform: uppercase;
-}
-
-#main-section{
-    margin: 70px 0 0 0;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1430px) {
-    #main-section{
-        margin: 115px 0 0 0;
-    }
+    border-radius: 8px;
 }
 
 .input-menu{
     width: 100%;
+    border: 1.5px solid black;
+    padding: 5px;
 }
 
 #registo-button{
-    margin-top: 10px;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 #main-title{
