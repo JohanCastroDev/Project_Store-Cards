@@ -7,22 +7,12 @@
     justify-items: center;
 }
 
-@media only screen and (max-width: 600px){
-    #div_logo{
-        /* background-color: red; */
-        display: grid;
-        width: 23rem;
-        height: 19rem;
-        align-items: center;
-        justify-items: center;
-    }
-}
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 992px){
     #div_logo{
         /* background-color: red; */
         display: grid;
-        width: 2rem;
+        width: 18rem;
         height: 19rem;
         align-items: center;
         justify-items: center;
